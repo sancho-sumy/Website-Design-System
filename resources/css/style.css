@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+header {
+    z-index: 10;
+    background-color: #C5D5E4;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+h1 {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.leftmenu {
+    box-sizing: border-box;
+    width: 150px;
+    float: left;
+    position: sticky;
+    top: 0px;
+    padding: 10px auto;
+    margin: 30 auto;
+    display: block;
+}
+ul {
+    padding: 0 20px;
+    display: block;
+    }
+li {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: block;
+    width: 160px;
+    border-left: 2px solid black;
+    padding: 2px;
+    }
+li a {
+    color: rgb(75, 71, 71);
+    text-decoration: none;
+}
+li a:active {
+    color: red;
+}       
+li a:hover {
+    color: #FFF;
+}   
+li > a {
+    display: block;
+    text-decoration: none;
+}
+ul li:hover
+{
+    background: #8896AB;
+    font-weight: bold;
+    cursor: pointer;
+    border-left: 2px solid #466362;
+    transition: all 0.5s ease-out;
+}
+.content {
+    box-sizing: border-box;
+    width: calc(100vw - 167px);
+    height: 100%;
+    margin-left: 150px;
+    padding: 0px 50px;
+}
+.footer {
+    text-align: center;
+    background-color: #C5D5E4;
+}
+footer div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border-style: none;
+    border-spacing: 0;
+    font-weight: bold;
+}
+.colors td{
+    width: 20%;
+    height: 300px;
+    position: relative;
+    bottom: 10px;
+    color: #FFF;
+}
+.color1 {
+    background-color: #7E6551;
+}
+.color2 {
+    background-color: #938581;
+}
+.color3 {
+    background-color: #466362;
+}
+.color4 {
+    background-color: #8896AB;
+}
+.color5 {
+    background-color: #C5D5E4;
+}
+td p {
+    margin-top: 200px;
+}
+.fonts td{
+    width: 50%;
+    height: 200px;
+    position: relative;
+    bottom: 10px;
+    text-align: left;
+}
+.fonts td p {
+    margin-top: 0;
+    color: black
+}
+.fonts a {
+    color: rgb(75, 71, 71);
+    text-decoration: none;
+}
+.font_style_1 {
+    font-weight: normal;
+    font-style: normal;
+}
+.font_style_2 {
+    font-weight: bold;
+    font-style: normal;
+}
+.font_style_3 {
+    font-weight: 400;
+    font-style: italic;
+}
